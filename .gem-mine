@@ -1,0 +1,11 @@
+{
+  "version": "1.1.0",
+  "template_id": "c146775b-bfcf-429c-93ac-3be775e4f516",
+  "name": "video-demo-encry",
+  "path": "D:\\nd-project\\video-demo-encry",
+  "env": "{\"cli_version\":\"2.23.5\",\"npm_version\":\"6.14.11\",\"node_version\":\"v14.16.0\"}",
+  "user": "janya",
+  "email": "694730359@qq.com",
+  "choice": "{\"templateId\":\"c146775b-bfcf-429c-93ac-3be775e4f516\",\"packageManager\":\"npm\",\"registry\":\"http://registry.npm.sdp.nd/\",\"features\":[\"lintBeforeCommit\",\"jest\"]}",
+  "project_id": "5a1d8cf0-9d73-11ee-845b-3de2200b1578_1702882925376"
+}

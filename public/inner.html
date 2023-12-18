@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="env">
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <meta name="description" content="<%= htmlWebpackPlugin.options.description%>" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  </head>
+
+  <body>
+    <%= require('html-loader!./common/header.html') %>
+
+    <div class="main">
+      <div class="content">
+        <a href="/" id="goHome"></a>
+        <div>
+          <button id="get-user"></button>
+          <h3 id="user"></h3>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

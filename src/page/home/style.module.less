@@ -1,0 +1,31 @@
+.item {
+  background: rgba(198, 226, 255, 0.5);
+  box-sizing: border-box;
+  width: 46%;
+  margin: 10px 2%;
+  padding: 10px 15px;
+  display: inline-block;
+  float: left;
+  border: 1px solid #b9d3ee;
+  border-radius: 5px;
+  cursor: pointer;
+
+  & > a {
+    color: #314659;
+    text-decoration: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    & > .title {
+      font-size: large;
+    }
+
+    & > .introduce {
+      margin: 0;
+      overflow: hidden;
+      overflow-wrap: break-word;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+  }
+}
