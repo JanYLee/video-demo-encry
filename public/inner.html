@@ -7,18 +7,14 @@
     <title><%= htmlWebpackPlugin.options.title %></title>
     <meta name="description" content="<%= htmlWebpackPlugin.options.description%>" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link href="https://topic.ykt.cbern.com.cn/web/hub/videoplayer/xeduvideoplayer.min.css" type="text/css" rel="stylesheet" />
+    <script src="https://topic.ykt.cbern.com.cn/web/hub/videoplayer/xeduvideoplayer.min.js" type="text/javascript"></script>
   </head>
 
   <body>
-    <%= require('html-loader!./common/header.html') %>
-
     <div class="main">
       <div class="content">
-        <a href="/" id="goHome"></a>
-        <div>
-          <button id="get-user"></button>
-          <h3 id="user"></h3>
-        </div>
+        <video id="video-dom" class="video-js" />
       </div>
     </div>
   </body>

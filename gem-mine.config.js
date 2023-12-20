@@ -1,11 +1,10 @@
-const { proxyConfig } = require('./src/config/request/proxy')
-
 module.exports = {
   /**
    * 本地开发时，需要代理转发的请求
    */
   devServer: {
-    proxy: proxyConfig
+    proxy: {},
+    https: true
   },
   chainWebpack: (config) => {
     // use webpack-chain
@@ -38,5 +37,6 @@ module.exports = {
       filename: 'inner.html',
       title: 'Inner Page'
     }
-  }
+  },
+  transpileDependencies: ['crypto-es']
 }

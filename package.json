@@ -27,7 +27,12 @@
   },
   "dependencies": {
     "@gem-mine/intl-pure": "^3.0.0",
-    "@gem-mine/request": "^1.1.4"
+    "@gem-mine/js-async-loader": "^2.0.1",
+    "@gem-mine/request": "^1.1.4",
+    "@sdp.nd/videoplayer": "^0.2.16",
+    "@x-edu/video-player": "0.0.1",
+    "axios": "^1.6.2",
+    "crypto-es": "^2.1.0"
   },
   "devDependencies": {
     "@gem-mine/babel-preset-app": "^2.4.1",
